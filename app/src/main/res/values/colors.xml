@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01659d</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#fdfbf4</color>
+
+    <!-- Background color for the INICIO category -->
+    <color name="category_inicio">#09d8fd</color>
+
+    <!-- Background color for the PRODUCTOS category -->
+    <color name="category_utensilios">#378192</color>
+
+    <!-- Background color for the COMPLEMENTOS category -->
+    <color name="category_complementos">#0035a0</color>
+</resources>

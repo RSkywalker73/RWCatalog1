@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_inicio"
+        android:id="@+id/framelayout_inicio">
+        <TextView
+            android:id="@+id/inicio"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Inicio" />
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_utensilios"
+        android:id="@+id/framelayout_utensilios">
+        <TextView
+            android:id="@+id/utensilios"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Utensilios" />
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_complementos"
+        android:id="@+id/framelayout_complementos">
+        <TextView
+            android:id="@+id/complementos"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Complementos" />
+    </FrameLayout>
+
+    <!--&lt;!&ndash; Numbers category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_numbers">-->
+        <!--<TextView-->
+            <!--android:id="@+id/numbers"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_numbers" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Family category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_family">-->
+        <!--<TextView-->
+            <!--android:id="@+id/family"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_family" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Colors category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_colors">-->
+        <!--<TextView-->
+            <!--android:id="@+id/colors"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_colors" />-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash; Phrases category &ndash;&gt;-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/category_phrases">-->
+        <!--<TextView-->
+            <!--android:id="@+id/phrases"-->
+            <!--style="@style/CategoryStyle"-->
+            <!--android:background="?android:attr/selectableItemBackground"-->
+            <!--android:text="@string/category_phrases" />-->
+    <!--</FrameLayout>-->
+
+</LinearLayout>
